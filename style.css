@@ -2,11 +2,13 @@
     font-family: Roboto, 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    flex: none;
+    flex: initial;
+    flex-wrap: wrap;
 }
 
 body {
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
